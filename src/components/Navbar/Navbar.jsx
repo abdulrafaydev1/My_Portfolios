@@ -24,6 +24,10 @@ function Navbar() {
             <a href="#about">ABOUT</a>
           </li>
 
+          <li>
+            <a href="#skills">SKILLS</a>
+          </li>
+
           <li className="dropdown-trigger">
             <a href="#projects" onClick={() => setProjectsOpen((value) => !value)}>
               PROJECTS <span aria-hidden="true">⌄</span>
@@ -63,7 +67,7 @@ function Navbar() {
 
       </div>
       <div className={`mobile-menu${menuOpen ? " is-open" : ""}`}>
-        <a href="#home" onClick={closeMenu}>HOME</a><a href="#about" onClick={closeMenu}>ABOUT</a><a href="#projects" onClick={closeMenu}>PROJECTS</a><a href="#contact" onClick={closeMenu}>CONTACT</a>
+        <a href="#home" onClick={closeMenu}>HOME</a><a href="#about" onClick={closeMenu}>ABOUT</a><a href="#skills" onClick={closeMenu}>SKILLS</a><a href="#projects" onClick={closeMenu}>PROJECTS</a><a href="#contact" onClick={closeMenu}>CONTACT</a>
       </div>
     </nav>
   );
