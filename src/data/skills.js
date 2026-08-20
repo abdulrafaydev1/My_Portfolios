@@ -3,6 +3,7 @@ import {
     siCss,
     siFirebase,
     siGithub,
+    siGit,
     siHtml5,
     siJavascript,
     siNodedotjs,
@@ -11,7 +12,7 @@ import {
     siMongodb,
     siExpress,
     siRedux,
-    siTailwindcss
+    siTailwindcss,
 } from "simple-icons/icons";
 
 const skills = [
@@ -24,10 +25,14 @@ const skills = [
     { id: 7, name: "CSS", icon: siCss },
     { id: 8, name: "Bootstrap", icon: siBootstrap },
     { id: 9, name: "GitHub", icon: siGithub },
+    { id: 9, name: "Git", icon: siGit },
+
+
     { id: 10, name: "Mongodb", icon: siMongodb },
     { id: 10, name: "Express.JS", icon:  siExpress},
     { id: 10, name: "Redux", icon:  siRedux},
     { id: 10, name: "Tailwind CSS", icon:  siTailwindcss},
+ 
 ];
 
 export default skills;
