@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import Skills from "./components/Skills/Skills";
 
 import CustomCursor from "./components/UI/CustomCursor";
 import ProgressBar from "./components/UI/ProgressBar";
@@ -33,6 +34,7 @@ function App() {
         <main>
           <Hero />
           <About />
+          <Skills />
           <Projects />
         </main>
 
