@@ -5,7 +5,7 @@ function SkillCard({ skill }) {
     <article className="skill-card">
       <div className="skill-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" role="img" focusable="false">
-          <path d={icon.path} fill="currentColor" />
+          <path d={icon.path} fill={`#${icon.hex}`} />
         </svg>
       </div>
       <h3>{name}</h3>
