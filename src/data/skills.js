@@ -26,8 +26,6 @@ const skills = [
     { id: 8, name: "Bootstrap", icon: siBootstrap },
     { id: 9, name: "GitHub", icon: siGithub },
     { id: 9, name: "Git", icon: siGit },
-
-
     { id: 10, name: "Mongodb", icon: siMongodb },
     { id: 10, name: "Express.JS", icon:  siExpress},
     { id: 10, name: "Redux", icon:  siRedux},
