@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="nav-container">
 
-        <div className="nav-logo">
+        <div className="  ">
           <span className="logo-tag">
             &lt;Abdulrafay /&gt;
           </span>
