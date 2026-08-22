@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 
+
 function CustomCursor() {
     useEffect(() => {
         if (window.matchMedia("(pointer: coarse)").matches) return undefined;

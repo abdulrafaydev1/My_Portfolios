@@ -24,6 +24,7 @@ function About() {
               delivering production-ready solutions.
             </p>
 
+
             <p className="bio-text">
               As a Tech Lead and Full-Stack Developer, I've
               managed teams, coordinated with global clients,

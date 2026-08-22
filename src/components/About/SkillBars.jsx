@@ -23,6 +23,7 @@ function SkillBars() {
       },
       { threshold: 0.25 },
     );
+    
 
     if (barsRef.current) observer.observe(barsRef.current);
     return () => observer.disconnect();
