@@ -38,8 +38,6 @@ function SkillBars() {
           <div className="skill-track"><span data-percent={skill.percent} /></div>
         </div>
       ))}
-
-       
     </div>
   );
 }
