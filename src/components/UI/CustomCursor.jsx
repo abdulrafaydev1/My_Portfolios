@@ -17,6 +17,8 @@ function CustomCursor() {
     }, []);
     return <><span className="cursor-dot" /><span className="cursor-outline" /></>;
 }
+
+
 export default CustomCursor;
 
 
