@@ -18,4 +18,5 @@ export function runPageAnimations(root) {
     });
   }, root);
   return () => context.revert();
+  
 }
