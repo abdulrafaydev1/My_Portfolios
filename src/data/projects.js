@@ -15,6 +15,8 @@ const projects = [
   { id: 6, title: "Portfolio 2025", description: "High-end interactive showcase with smooth animations.", image: "https://placehold.co/800x520/193252/e9f1ff?text=Portfolio+2025", link: "#home" },
 ];
 
+
+
 export default projects;
 
 
