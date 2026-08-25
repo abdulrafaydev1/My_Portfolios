@@ -7,6 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 
+
 export function runPageAnimations(root) {
   const context = gsap.context(() => {
     gsap.from(".nav-links", { opacity: 0, y: 40, duration: 0.9, stagger: 0.1, ease: "power3.out" });
